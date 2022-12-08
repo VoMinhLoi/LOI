@@ -1,4 +1,4 @@
-package com.example.loi.SignUpLogInActivity;
+package com.example.loi.Activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,6 +21,7 @@ public class SignUpLogInActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup_login);
         mAdapter = new SignUpLogInAdapter(this);
+        mTabLayout = findViewById(R.id.tabLayoutSULG);
         mViewPager2 = findViewById(R.id.viewPager2);
         mViewPager2.setAdapter(mAdapter);
         new TabLayoutMediator(mTabLayout, mViewPager2, new TabLayoutMediator.TabConfigurationStrategy() {
@@ -28,6 +29,6 @@ public class SignUpLogInActivity extends AppCompatActivity {
             public void onConfigureTab(@NonNull TabLayout.Tab tab, int position) {
                 tab.setText(SignUpLogInActivity.this.getResources().getString(mTabTitbles[position]));
             }
-        });
+        }).attach();
     }
 }

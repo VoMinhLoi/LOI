@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1048861373780",
+    "project_id": "floi-70709",
+    "storage_bucket": "floi-70709.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048861373780:android:4d5fc846040981d29f84c1",
+        "android_client_info": {
+          "package_name": "com.example.loi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048861373780-4upran58l0qdh30qleqmsavm7k5odhu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDVS7Rwt7Drrb0LlwmrUm-qZ0wm5W16pQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048861373780-4upran58l0qdh30qleqmsavm7k5odhu7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
